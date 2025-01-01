@@ -1,6 +1,6 @@
 # Valorant Predictive Model
 
-This model uses the data from VCT 2024 matches in order to create a logistic regression model that predicts the probability of certain team winning any given match based on certain historical stats (such as Average Combat Score per Player). \
+This model uses the data from VCT 2024 matches in order to create a logistic regression model that predicts the probability of certain team winning any given match based on certain historical stats (such as Average Combat Score per Player). 
 
 ## vlrWebScraper
 This folder contains the python web scraper used to take statistics from vlr.gg. If you put an event (such as Americas kickoff 2024) into find.txt and run linkfinder.py, it will put all the match links from that event into links.txt. Running main.py will take all the links from links.txt and put the statistics into data.csv. It contains the following columns: \ 
@@ -13,7 +13,7 @@ This folder contains the python web scraper used to take statistics from vlr.gg.
 **HS**: The total headshot percentage of the team during a match\
 **FK**: The total first kills of a team during a match\
 **FD**: The total first deaths of a team during a match\
-**W.L**: Whether the team won or lost the match\
+**W.L**: Whether the team won or lost the match
 
 ## Final model
 
